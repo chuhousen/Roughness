@@ -22,6 +22,7 @@ R script for simultaneous estimation of roughness length (Z0) & zero-plane displ
    d[t+1] = d[t] + sigma.d/sigma.Z0*cor*(Z0[t+1]-Z0[t]) + d.err ; d.err ~ N(0,sigma.d.iid)
 
 [Input variables]  
+
        WS: wind speed (m/s)
        Ustr: friction velocity (m/s)
        zm: measurement height (m)
@@ -31,12 +32,14 @@ R script for simultaneous estimation of roughness length (Z0) & zero-plane displ
        ZL: Monin–Obukhov stability (unitless) *only used in filtering data*
 
 [Constants]      
+
        k: 0.4 von karman constant
        C1: 1.3
        C2: 2.0 estimates for the universal constants, (Panofsky & Dutton 1984)
        beta: 6.0
 
 [Output variables]
+
        Z01[DOY]: roughness length estimated for each day (DOY) by using FP-RE-1 model
        d1[DOY]: displacement height estimated for each day (DOY) by using FP-RE-1 model
        Z02[DOY]: roughness length estimated for each day (DOY) by using FP-RE-2 model
