@@ -5,6 +5,7 @@
 2. FP-RE-2: from logarithmic wind profile theory: WS = Ustr/k*(ln((zm-d)/Z0)-beta*((zm-d)/Lm))
 3. FV-RE-1: from flux-variance similarity theory: std.Uz/Ustr = C1*(1-C2*(zm-d)/Lm)^(1/3); std.Uz = k*C1*WS/ln((zm-d)/Z0)               
 ----
+
 ####[Desccription]
 The goal is to estimate Z0 and d from continuous measurements of wind and turbulent statistics, i.e., WS, Ustr, std.Uz. All input variables are originally measured at a 30-min time step, but are pre-filtered according to data quality & required meteorological conditions. i.e., not every 30 min is used in model fitting...
 While estimating Z0 & d, the time series is re-grouped to a daily step, i.e., treating each 30 min within a day as a sampling replicate. Z0 and d are estimated at a daily time step, as they are both functions of canopy structures (height, leaf area...), assuming no changes within a day. The time series of Z0 or d is assumed as an autoregressive process, and it's assumed there's correlation (cor) between the time series of Z0 & d
