@@ -10,6 +10,7 @@ R script for simultaneous estimation of roughness length (Z0) & zero-plane displ
                                                   std.Uz = k*C1*WS/ln((zm-d)/Z0)                 
 
 [Desccription]
+
    The goal is to estimate Z0 and d from continuous measurements of wind and turbulent statistics, i.e., WS, Ustr, std.Uz..... 
    All input variables are originally measured at a 30-min time step, but are pre-filtered according to data quality & required meteorological conditions.
    i.e., not every 30 min is used in model fitting.
