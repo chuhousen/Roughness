@@ -3,7 +3,9 @@
 ### The code modifies and implements the 3 approaches used in Graf et al.,2014 Boundary-Layer Meteorol.
 1. FP-RE-1: from logarithmic wind profile theory: WS/Ustr = 1/k*(ln((zm-d)/Z0)-beta*((zm-d)/Lm))
 2. FP-RE-2: from logarithmic wind profile theory: WS = Ustr/k*(ln((zm-d)/Z0)-beta*((zm-d)/Lm))
-3. FV-RE-1: from flux-variance similarity theory: std.Uz/Ustr = C1*(1-C2*(zm-d)/Lm)^(1/3); std.Uz = k*C1*WS/ln((zm-d)/Z0)               
+3. FV-RE-1: from flux-variance similarity theory: std.Uz/Ustr = C1*(1-C2*(zm-d)/Lm)^(1/3); std.Uz = k*C1*WS/ln((zm-d)/Z0)    
+ 
+
 ----
 
 ####[Desccription]
