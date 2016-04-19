@@ -38,9 +38,7 @@ R script for simultaneous estimation of roughness length (Z0) & zero-plane displ
 [Output variables]
        Z01[DOY]: roughness length estimated for each day (DOY) by using FP-RE-1 model
        d1[DOY]: displacement height estimated for each day (DOY) by using FP-RE-1 model
-
        Z02[DOY]: roughness length estimated for each day (DOY) by using FP-RE-2 model
        d2[DOY]: displacement height estimated for each day (DOY) by using FP-RE-2 model
-
        Z03[DOY]: roughness length estimated for each day (DOY) by using FV-RE-1 model
        d3[DOY]: displacement height estimated for each day (DOY) by using FV-RE-1 model
